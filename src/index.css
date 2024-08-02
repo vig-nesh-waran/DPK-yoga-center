@@ -25,6 +25,7 @@ a {
   border: 1px solid var(--secondary-color);
   border-radius: 4px;
   cursor: pointer;
+  width: 90%;
 }
 
 .button:hover {
