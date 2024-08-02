@@ -1,0 +1,47 @@
+.instructor {
+    background-color: #f8f8f8;
+    padding: 5rem 1rem 0 1rem;
+    width: 100%;
+    height: auto;
+}
+
+.inst-img {
+    width: 60%;
+    height: 60vh;
+    border-radius: 5%;
+}
+
+.mx-5{
+    margin-left: 5rem !important;
+}
+
+.instructor h2 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+    color: var(--primary-color);
+    text-align: center;
+}
+
+.head {
+    margin: 2rem 0;
+}
+
+.subhead {
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+@media screen and (max-width: 940px) {
+    .col-2 {
+        padding: 1rem;
+    }
+
+    h2 {
+        font-size: 2.4rem;
+    }
+
+    p {
+        font-size: 1rem;
+    }
+}

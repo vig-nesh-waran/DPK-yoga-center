@@ -1,0 +1,44 @@
+.footer {
+    background-color: var(--overlay);
+    padding: 2rem 0;
+    position: relative;
+}
+
+.footer ul {
+    padding: 0;
+    list-style: none;
+}
+
+.footer ul li a{
+    color: #333;
+    margin-bottom: 0.5rem;
+    text-decoration: none;
+}
+
+.footer ul li a:hover {
+    text-decoration: underline;
+}
+
+.footer .icons {
+    margin: 0 0.5rem;
+    color: var(--secondary-color);
+    font-size: 1.3rem;
+}
+
+.copyright{
+    margin-top: 2rem;
+}
+
+.footer .icons:hover {
+    color: var(--secondary-dark);
+}
+
+.brand-span{
+    color: var(--primary-color);
+    font-size: 1.1rem;
+}
+
+h5{
+    color: var(--primary-color);
+    font-size: 1rem;
+}
