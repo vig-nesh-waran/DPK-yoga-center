@@ -18,9 +18,7 @@ const About = () => {
                     <div className='col-md-6'>
                         <p className='head'>DPK Yoga Centre is dedicated to promoting the benefits of yoga for a balanced, healthy, and happy life. Located in a serene environment, we offer classes designed to meet individual needs, enhancing physical and mental well-being.</p>
                         <p className='subhead'>"Join us to experience the transformative power of yoga and become part of our vibrant community."</p>   
-                        <center>
-                            <a href="#" className='btn button' data-bs-toggle="modal" data-bs-target="#aboutModal">Explore More</a>
-                        </center>
+                        <a href="#" className='btn button' data-bs-toggle="modal" data-bs-target="#aboutModal">Explore More</a>
                     </div>
                 </div>
             </div>
