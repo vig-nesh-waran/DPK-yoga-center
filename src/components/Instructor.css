@@ -6,13 +6,9 @@
 }
 
 .inst-img {
-    width: 70%;
-    height: 60vh;
-    border-radius: 5%;
-}
-
-.mx-5{
-    margin-left: 5rem !important;
+    width: 60%;
+    height: 50vh;
+    border-radius: 5px;
 }
 
 .instructor h2 {

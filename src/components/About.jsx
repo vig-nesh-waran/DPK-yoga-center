@@ -15,7 +15,7 @@ const About = () => {
                     <div className='col-md-6 text-center'>
                         <img src={img1} className='img-fluid rounded' alt="About Us" />
                     </div>
-                    <div className='col-md-6'>
+                    <div className='col-md-6 text-md-center'>
                         <p className='head'>DPK Yoga Centre is dedicated to promoting the benefits of yoga for a balanced, healthy, and happy life. Located in a serene environment, we offer classes designed to meet individual needs, enhancing physical and mental well-being.</p>
                         <p className='subhead'>"Join us to experience the transformative power of yoga and become part of our vibrant community."</p>   
                         <a href="#" className='btn button' data-bs-toggle="modal" data-bs-target="#aboutModal">Explore More</a>

@@ -12,10 +12,10 @@ const Instructor = () => {
         </div>
         <div className='container mt-3'>
             <div className='row d-flex justify-content-center align-items-center flex-md-column flex-lg-row'>
-                <div className='col-md-6 text-center'>
-                    <img src={img1} className='inst-img mb-3 mx-5' alt="About Us" />
+                <div className='col-md-6 text-center mb-3'>
+                    <img src={img1} className='inst-img' alt="About Us" />
                 </div>
-                <div className='col-md-6'>
+                <div className='col-md-6 text-md-center'>
                     <p className=' fw-bold'>DHAKSHAYANI K, <span className=' text-muted'>YOGA INSTRUCTOR</span></p>
                     <p className='head'>Meet Dhakshayani K, our passionate yoga instructor with 9 years of experience. Trained at RV Yoga Kendra in Bangalore, Dhakshayani is dedicated to guiding you through yoga with a focus on breath awareness, unlocking deeper calmness and self-discovery.</p>
                     <p className='subhead'>"Join her at DPK Yoga Centre to transform your wellness journey and experience the true essence of yoga."</p>   
