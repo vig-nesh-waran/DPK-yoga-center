@@ -19,7 +19,7 @@ const Instructor = () => {
                     <p className=' fw-bold'>DHAKSHAYANI K, <span className=' text-muted'>YOGA INSTRUCTOR</span></p>
                     <p className='head'>Meet Dhakshayani K, our passionate yoga instructor with 9 years of experience. Trained at RV Yoga Kendra in Bangalore, Dhakshayani is dedicated to guiding you through yoga with a focus on breath awareness, unlocking deeper calmness and self-discovery.</p>
                     <p className='subhead'>"Join her at DPK Yoga Centre to transform your wellness journey and experience the true essence of yoga."</p>   
-                    <a href="#" className='btn button' data-bs-toggle="modal" data-bs-target="#aboutModal">Explore More</a>
+                    <a href="#" className='btn inst-btn' data-bs-toggle="modal" data-bs-target="#aboutModal">Explore More</a>
                 </div>
             </div>
         </div>

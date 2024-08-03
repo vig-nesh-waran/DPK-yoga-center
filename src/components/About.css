@@ -31,17 +31,23 @@
     font-weight: 600;
 }
 
-.button {
-    margin-top: 1rem;
+.about-btn{
+    width: 60%;
+    font-size: 1.2rem;
+    color: #fff;
+    font-weight: 600;
+    text-transform: uppercase;
     background-color: var(--secondary-color);
     border: 1px solid var(--secondary-color);
-    color: #fff;
+    border-radius: 4px;
+    cursor: pointer;
 }
 
-.button:hover {
-    background-color: var(--secondary-dark);
+.about-btn:hover {
+    background: var(--secondary-dark);
     border: 1px solid var(--secondary-dark);
-}
+    color: #fff;
+  }
 
 @media screen and (max-width: 940px) {
     .col-2 {
@@ -54,9 +60,5 @@
 
     p {
         font-size: 1rem;
-    }
-
-    .button {
-        margin-bottom: 1rem;
     }
 }
