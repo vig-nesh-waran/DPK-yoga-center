@@ -25,12 +25,6 @@
     width: 100%;
 }
 
-.about-img{
-    height: 14rem !important;
-    width: 50% !important;
-    z-index: -1;
-}
-
 .about-img img{
     height: 100%;
     width: 100%;

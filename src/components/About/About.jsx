@@ -35,7 +35,7 @@ const About = () => {
   };
 
   return (
-    <div className="about" id="about">
+    <div className="about container" id="about">
       <div className=" text-center">
         <h2 className="fw-bold fs-2">Dhaksha Yoga and Arts Academy (DYAA)</h2>
         <span className="line"></span>
@@ -87,13 +87,9 @@ const About = () => {
                 </div>
               </Slider>
             </div>
-            <div className="col-md-12 ms-1 col-lg-4 d-flex justify-content-around flex-column rounded-3">
-              <div className="about-img col-lg-3 m-1 rounded-3">
+            <div className="col-md-12 col-lg-4 d-flex justify-content-around flex-column gap-3 rounded-3">
                 <img src={aboutPic1} alt="DYAA" className="rounded-3"/>
-              </div>
-              <div className="about-img col-md-3 m-1 col-lg-3 rounded-3">
                 <img src={aboutPic2} alt="DYAA" className="rounded-3"/>
-              </div>
             </div>
           </div>
           <div className="text-center">
