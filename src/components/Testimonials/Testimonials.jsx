@@ -33,39 +33,33 @@ const testimonials = [
 
 const Testimonials = () => {
   return (
-    <div className="testimonial-container py-5">
-      <h2 className=' text-center'>What our client said</h2>
-      <span className='line'></span>
-      <div id="testimonialCarousel" className="carousel slide" data-bs-ride="carousel" data-bs-interval="3000">
-        <div className="carousel-inner">
-          {testimonials.map((testimonial, index) => (
-            <div key={index} className={`carousel-item ${index === 0 ? 'active' : ''}`}>
-              <div className="testimonial-content text-center p-4">
-                <p className="review-text">"{testimonial.review}"</p>
-                <div className="testimonial-author">
-                  <h5 className="author-name">{testimonial.name}</h5>
-                  <div className="star-rating">
-                    {Array.from({ length: 5 }, (_, i) => (
-                      <FontAwesomeIcon
-                        key={i}
-                        icon={faStar}
-                        className={i < testimonial.rating ? 'text-warning' : 'text-muted'}
-                      />
-                    ))}
+    <div className="testimonial position-relative d-flex justify-content-center align-items-center overflow-hidden">
+      <div className=' position-relative inner-test'>
+        <h2 className='fw-bold fs-2 text-center'>What our clients said</h2>
+        <span className='line'></span>
+        <div id="testimonialCarousel" className="carousel slide" data-bs-ride="carousel" data-bs-interval="3000">
+          <div className="carousel-inner text-center">
+            {testimonials.map((testimonial, index) => (
+              <div key={index} className={`carousel-item ${index === 0 ? 'active' : ''}`}>
+                <div className="text-center p-4">
+                  <div className="mt-3 mb-2">
+                    <h5 className="author-name md fs-3 fw-bold">{testimonial.name}</h5>
+                    <div className="fs-5">
+                      {Array.from({ length: 5 }, (_, i) => (
+                        <FontAwesomeIcon
+                          key={i}
+                          icon={faStar}
+                          className={i < testimonial.rating ? 'text-warning' : 'text-muted'}
+                        />
+                      ))}
+                    </div>
                   </div>
+                  <p className=" fst-italic fs-6">"{testimonial.review}"</p>
                 </div>
               </div>
-            </div>
-          ))}
+            ))}
+          </div>
         </div>
-        <button className="carousel-control-prev" type="button" data-bs-target="#testimonialCarousel" data-bs-slide="prev">
-          <span className="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span className="visually-hidden">Previous</span>
-        </button>
-        <button className="carousel-control-next" type="button" data-bs-target="#testimonialCarousel" data-bs-slide="next">
-          <span className="carousel-control-next-icon" aria-hidden="true"></span>
-          <span className="visually-hidden">Next</span>
-        </button>
       </div>
     </div>
   );

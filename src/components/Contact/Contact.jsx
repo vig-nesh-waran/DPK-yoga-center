@@ -5,23 +5,24 @@ import './Contact.css';
 
 const Contact = () => {
   return (
-    <div className="contact-container py-5" id='contact'>
-      <h2 className=' fw-bold'>Contact Us</h2>
+    <div className="contact-container py-5 m-0" id='contact'>
+      <h2 className=' text-center fs-2 fw-bold'>Contact Us</h2>
       <span className='line'></span>
-      <div className="container mt-4">
+
+      <div className="container mt-5">
         <div className="row">
           <div className="col-lg-6 mb-4">
-            <div className="contact-details">
-              <div className="contact-item">
-                <FontAwesomeIcon icon={faMapMarkerAlt} className="contact-icon" />
-                <p>Circle, Post, near Sobha Avenue, Kannamangala, Doddabanahalli, Bengaluru, Karnataka 560067</p>
+            <div className=" d-flex flex-column gap-4">
+              <div className="d-flex align-items-center gap-3">
+                <FontAwesomeIcon icon={faMapMarkerAlt} className="contact-icon fs-3" />
+                <p>No: 79, Doddabanahalli, Kannamangala Post, Bidarahalli Hobli, Bengaluru, Karnataka-560067</p>
               </div>
-              <div className="contact-item">
-                <FontAwesomeIcon icon={faPhone} className="contact-icon" />
+              <div className="d-flex align-items-center gap-3">
+                <FontAwesomeIcon icon={faPhone} className="contact-icon fs-3" />
                 <a className='contact' href="callto:9632226708">9632226708</a>
               </div>
-              <div className="contact-item">
-                <FontAwesomeIcon icon={faEnvelope} className="contact-icon" />
+              <div className="d-flex align-items-center gap-3">
+                <FontAwesomeIcon icon={faEnvelope} className="contact-icon fs-3" />
                 <a className='contact' href="mailto:contact@dpkyoga.com">contact@dpkyoga.com</a>
               </div>
             </div>

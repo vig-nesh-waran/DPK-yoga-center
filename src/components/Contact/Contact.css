@@ -1,0 +1,20 @@
+.contact-container {
+    padding: 5rem 2rem 1rem !important;
+  }
+  
+  .contact-container h2 {
+    color: var(--primary-text);
+}
+  
+  .contact-icon {
+    color: var(--primary-text);
+  }
+  
+  .contact-container iframe {
+    border: none;
+  }
+
+  .contact{
+    color: #000 !important;
+  }
+  

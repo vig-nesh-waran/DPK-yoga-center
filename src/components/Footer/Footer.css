@@ -1,0 +1,30 @@
+.footer {
+    background-color: var(--secondary-overlay);
+    padding: 2rem 0;
+    position: relative;
+}
+
+.footer ul {
+    padding: 0;
+    list-style: none;
+}
+
+.footer ul li a{
+    color: var(--primary-text);
+}
+
+.footer ul li a:hover {
+    text-decoration: underline;
+}
+
+.footer .icons {
+    color: var(--secondary-text);
+}
+
+.footer .icons:hover {
+    color: var(--secondary-text-dark);
+}
+
+.brand-span{
+    color: var(--primary-text);
+}
