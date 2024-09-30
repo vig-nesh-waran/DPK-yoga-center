@@ -18,7 +18,7 @@ const Courses = () => {
       <div className="container">
         <h2 className="fw-bold fs-2 text-center">Our Offerings</h2>
         <span className="line"></span>
-        <h4 className=" text-center fs-5 pb-3 mb-4">
+        <h4 className=" text-center fs-6 pb-3 mb-4">
         Dhaksha Yoga & Arts Academy offers a variety of programs designed to enhance your physical, emotional, and creative well-being.
         </h4>
 

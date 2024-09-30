@@ -26,7 +26,7 @@ const TermsModel = () => {
               ></button>
             </div>
             <div className="modal-body">
-              <h2>Terms and Conditions</h2>
+              <h2 className=" fs-5 fw-bold">Terms and Conditions</h2>
               <p>
               <span>Class Registration:</span> All participants must register for classes in advance. Registration can be done online or at the center.
               <br/>
@@ -42,7 +42,7 @@ const TermsModel = () => {
             <div className="modal-footer">
               <button
                 type="button"
-                className="btn model-button"
+                className="btn model-button fs-6 fw-bold rounded-4 button"
                 data-bs-dismiss="modal"
               >
                 OK

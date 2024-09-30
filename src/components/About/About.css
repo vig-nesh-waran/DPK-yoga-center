@@ -32,7 +32,7 @@
 
 @media screen and (max-width: 940px) {
     .slider img{
-        height: 50vh !important;
+        height: 40vh !important;
         width: 100%;
     }
 

@@ -14,7 +14,7 @@ const Hero = () => {
             <div className="content text-center position-absolute">
                 <p className="display-3 fw-bold">Welcome to Dhaksha Yoga & Arts Academy</p>
                 <p className="display-6 fst-italic sub-title fw-bold">"Unite your body, mind, and spirit with our personalized yoga and arts programs."</p>
-                <a href="#contact" className="btn button fw-bold rounded-5 mt-3">Join Us for a Free One-Week Trial!</a>
+                <a href="#contact" className="btn button fw-bold rounded-5 mt-3 fs-6">Join Us for a Free One-Week Trial!</a>
             </div>
         </div>
     );

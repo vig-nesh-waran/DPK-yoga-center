@@ -33,11 +33,10 @@ const testimonials = [
 
 const Testimonials = () => {
   return (
-    <div className="testimonial position-relative d-flex justify-content-center align-items-center overflow-hidden">
-      <div className=' position-relative inner-test'>
+    <div className="testimonial ">
         <h2 className='fw-bold fs-2 text-center'>What our clients said</h2>
         <span className='line'></span>
-        <div id="testimonialCarousel" className="carousel slide" data-bs-ride="carousel" data-bs-interval="3000">
+        <div id="testimonialCarousel" className="carousel slide" data-bs-ride="carousel" data-bs-interval="4000">
           <div className="carousel-inner text-center">
             {testimonials.map((testimonial, index) => (
               <div key={index} className={`carousel-item ${index === 0 ? 'active' : ''}`}>
@@ -54,13 +53,12 @@ const Testimonials = () => {
                       ))}
                     </div>
                   </div>
-                  <p className=" fst-italic fs-6">"{testimonial.review}"</p>
+                  <p className=" fst-italic text-white fs-6">"{testimonial.review}"</p>
                 </div>
               </div>
             ))}
           </div>
         </div>
-      </div>
     </div>
   );
 };

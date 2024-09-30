@@ -103,7 +103,7 @@ const About = () => {
             <p className="subhead m-1">
               "Join us and embark on a journey towards a more balanced, healthy, and fulfilling life."
             </p>
-            <a href="#contact" className="button btn about-btn mt-4 mx-md-5">
+            <a href="#contact" className="button btn mt-4 fs-6 fw-bold rounded-5">
                 Connect with us to start your journey!
             </a>
           </div>

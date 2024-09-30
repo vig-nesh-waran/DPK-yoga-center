@@ -10,7 +10,7 @@ const Instructor = () => {
     ];
 
     return (
-        <div className='instructor text-center mb-5 pb-4' id='instructor'>
+        <div className='instructor text-center' id='instructor'>
             <div>
                 <h2 className='fw-bold fs-2 text-center'>Meet Our Instructor</h2>
                 <span className='line'></span>
