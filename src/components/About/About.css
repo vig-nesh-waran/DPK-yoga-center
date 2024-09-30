@@ -27,7 +27,7 @@
 
 .about-img{
     height: 14rem !important;
-    width:25rem !important;
+    width: 50% !important;
     z-index: -1;
 }
 
@@ -40,12 +40,6 @@
     .slider img{
         height: 50vh !important;
         width: 100%;
-    }
-
-    .about-img{
-        height: 19rem !important;
-        width:32rem !important;
-        z-index: -1;
     }
 
     p {
