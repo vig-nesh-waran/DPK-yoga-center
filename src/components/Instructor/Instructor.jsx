@@ -9,6 +9,10 @@ const Instructor = () => {
         { img: img1, name: 'DHAKSHAYANI K', description: 'Yoga instructor with over 10+ years of experience in holistic wellness and mindfulness practices.' },
     ];
 
+    const preventRightClick = (e) => {
+        e.preventDefault();
+      };
+
     return (
         <div className='instructor text-center' id='instructor'>
             <div>
@@ -21,7 +25,7 @@ const Instructor = () => {
                     <div className="col-lg-5 col-md-12 mb-4 text-center" key={index}>
                         <div className="card border-0">
                             <div className="card-body">
-                                <img src={instructor.img} alt="" className='inst-img rounded-3'/>
+                                <img src={instructor.img} alt="Head Instructor in DYAA" onContextMenu={preventRightClick} className='inst-img rounded-3'/>
                                 <h5 className="card-title fw-bold m-3 fs-5">{instructor.name}</h5>
                                 <p className="card-text fw-semibold fw-light">{instructor.description}</p>
                             </div>

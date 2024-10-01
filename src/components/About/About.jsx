@@ -34,6 +34,10 @@ const About = () => {
     pauseOnHover: false,
   };
 
+  const preventRightClick = (e) => {
+    e.preventDefault();
+  };
+
   return (
     <div className="about container" id="about">
       <div className=" text-center">
@@ -68,28 +72,28 @@ const About = () => {
             <div className=" col-md-12 col-lg-6 mt-1">
               <Slider {...settings} className="slider rounded-3">
                 <div>
-                  <img src={carouselPic1} alt="DYAA" className="rounded-3"/>
+                  <img src={carouselPic1} alt="DYAA" onContextMenu={preventRightClick} className="rounded-3"/>
                 </div>
                 <div>
-                  <img src={carouselPic2} alt="DYAA" className="rounded-3"/>
+                  <img src={carouselPic2} alt="DYAA" onContextMenu={preventRightClick} className="rounded-3"/>
                 </div>
                 <div>
-                  <img src={carouselPic3} alt="DYAA" className="rounded-3"/>
+                  <img src={carouselPic3} alt="DYAA" onContextMenu={preventRightClick} className="rounded-3"/>
                 </div>
                 <div>
-                  <img src={carouselPic4} alt="DYAA" className="rounded-3"/>
+                  <img src={carouselPic4} alt="DYAA" onContextMenu={preventRightClick} className="rounded-3"/>
                 </div>
                 <div>
-                  <img src={carouselPic5} alt="DYAA" className="rounded-3"/>
+                  <img src={carouselPic5} alt="DYAA" onContextMenu={preventRightClick} className="rounded-3"/>
                 </div>
                 <div>
-                  <img src={carouselPic6} alt="DYAA" className="rounded-3"/>
+                  <img src={carouselPic6} alt="DYAA" onContextMenu={preventRightClick} className="rounded-3"/>
                 </div>
               </Slider>
             </div>
             <div className="col-md-12 col-lg-4 d-flex justify-content-around flex-column gap-3 rounded-3">
-                <img src={aboutPic1} alt="DYAA" className="rounded-3"/>
-                <img src={aboutPic2} alt="DYAA" className="rounded-3"/>
+                <img src={aboutPic1} alt="DYAA" onContextMenu={preventRightClick} className="rounded-3"/>
+                <img src={aboutPic2} alt="DYAA" onContextMenu={preventRightClick} className="rounded-3"/>
             </div>
           </div>
           <div className="text-center">
